@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+mainClassName = "com.rukin.laboratory4.DrawPlot"
+
+dependencies {
+    compile project(':Core')
+
+    compile 'org.antlr:antlr4:4.5.3'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.hamcrest:hamcrest-all:1.3'
+}

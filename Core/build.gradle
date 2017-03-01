@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.github.yannrichet:JMathPlot:1.0.1'
+    compile 'com.github.yannrichet:JMathIO:1.0'
+    compile 'com.github.yannrichet:JMathArray:1.0'
+}
